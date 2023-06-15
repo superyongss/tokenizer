@@ -4,21 +4,21 @@ import (
 	"log"
 	"os"
 
-	"github.com/sugarme/tokenizer"
-	"github.com/sugarme/tokenizer/decoder"
-	"github.com/sugarme/tokenizer/model/bpe"
-	"github.com/sugarme/tokenizer/pretokenizer"
-	"github.com/sugarme/tokenizer/processor"
-	"github.com/sugarme/tokenizer/util"
+	"github.com/superyongss/tokenizer"
+	"github.com/superyongss/tokenizer/decoder"
+	"github.com/superyongss/tokenizer/model/bpe"
+	"github.com/superyongss/tokenizer/pretokenizer"
+	"github.com/superyongss/tokenizer/processor"
+	"github.com/superyongss/tokenizer/util"
 )
 
 // RobertaBase loads pretrained RoBERTa tokenizer.
 //
 // Params:
-// - addPrefixSpace: set whether to add a leading space to the first word.
-//   It allows to treat the leading word just as any other words.
-// - trimOffsets: set Whether the post processing step should trim offsets
-//   to avoid including whitespaces.
+//   - addPrefixSpace: set whether to add a leading space to the first word.
+//     It allows to treat the leading word just as any other words.
+//   - trimOffsets: set Whether the post processing step should trim offsets
+//     to avoid including whitespaces.
 //
 // Special tokens:
 // - cls-token: "<s>"
@@ -67,10 +67,10 @@ func RobertaBase(addPrefixSpace, trimOffsets bool) *tokenizer.Tokenizer {
 // RobertaBaseSquad2 loads pretrained RoBERTa fine-tuned SQuAD Question Answering tokenizer.
 //
 // Params:
-// - addPrefixSpace: set whether to add a leading space to the first word.
-//   It allows to treat the leading word just as any other words.
-// - trimOffsets: set Whether the post processing step should trim offsets
-//   to avoid including whitespaces.
+//   - addPrefixSpace: set whether to add a leading space to the first word.
+//     It allows to treat the leading word just as any other words.
+//   - trimOffsets: set Whether the post processing step should trim offsets
+//     to avoid including whitespaces.
 //
 // Special tokens:
 // - cls-token: "<s>"

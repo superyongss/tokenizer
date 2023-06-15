@@ -10,15 +10,14 @@ import (
 	"os"
 	"reflect"
 	"strings"
-
 	// "regexp"
 	"sync"
 
 	progressbar "github.com/schollz/progressbar/v2"
 	// "golang.org/x/sync/errgroup"
 
-	"github.com/sugarme/tokenizer/normalizer"
-	"github.com/sugarme/tokenizer/util"
+	"github.com/superyongss/tokenizer/normalizer"
+	"github.com/superyongss/tokenizer/util"
 )
 
 const mb = 1024 * 1024

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/sugarme/tokenizer/model/wordpiece"
+	"github.com/superyongss/tokenizer/model/wordpiece"
 )
 
 func TestErrorDisplay(t *testing.T) {

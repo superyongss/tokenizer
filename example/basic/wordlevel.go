@@ -5,11 +5,11 @@ import (
 	"log"
 	"unicode"
 
-	"github.com/sugarme/tokenizer"
-	"github.com/sugarme/tokenizer/decoder"
-	"github.com/sugarme/tokenizer/model/wordlevel"
-	"github.com/sugarme/tokenizer/normalizer"
-	// "github.com/sugarme/tokenizer/pretokenizer"
+	"github.com/superyongss/tokenizer"
+	"github.com/superyongss/tokenizer/decoder"
+	"github.com/superyongss/tokenizer/model/wordlevel"
+	"github.com/superyongss/tokenizer/normalizer"
+	// "github.com/superyongss/tokenizer/pretokenizer"
 )
 
 type customNormalizer struct{}

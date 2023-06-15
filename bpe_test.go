@@ -6,13 +6,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/sugarme/tokenizer"
-	"github.com/sugarme/tokenizer/model/bpe"
+	"github.com/superyongss/tokenizer"
+	"github.com/superyongss/tokenizer/model/bpe"
 
-	// "github.com/sugarme/tokenizer/normalizer"
-	"github.com/sugarme/tokenizer/pretokenizer"
-	"github.com/sugarme/tokenizer/processor"
-	"github.com/sugarme/tokenizer/util"
+	// "github.com/superyongss/tokenizer/normalizer"
+	"github.com/superyongss/tokenizer/pretokenizer"
+	"github.com/superyongss/tokenizer/processor"
+	"github.com/superyongss/tokenizer/util"
 )
 
 func getByteLevelBPE() (retVal *tokenizer.Tokenizer) {

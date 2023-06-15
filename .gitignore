@@ -7,5 +7,5 @@ data/
 example/testdata/
 *.dat
 *.log
-
+*.idea/
 *.json

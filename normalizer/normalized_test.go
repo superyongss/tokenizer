@@ -3,7 +3,6 @@ package normalizer_test
 import (
 	"fmt"
 	"reflect"
-
 	// "strings"
 	"testing"
 	"unicode"
@@ -11,8 +10,8 @@ import (
 	// "golang.org/x/text/transform"
 	// "golang.org/x/text/unicode/norm"
 
-	"github.com/sugarme/tokenizer/normalizer"
-	// "github.com/sugarme/tokenizer/util"
+	"github.com/superyongss/tokenizer/normalizer"
+	// "github.com/superyongss/tokenizer/util"
 )
 
 func TestNormalized_NFDAddsNewChars(t *testing.T) {

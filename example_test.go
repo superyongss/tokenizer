@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/sugarme/tokenizer/pretrained"
+	"github.com/superyongss/tokenizer/pretrained"
 )
 
 func ExampleTokenizer_Encode() {

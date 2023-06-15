@@ -6,14 +6,13 @@ import (
 	"io/ioutil"
 	"os"
 	"reflect"
-
 	// "reflect"
 	// "strings"
 	"testing"
 
-	"github.com/sugarme/tokenizer"
-	bpe "github.com/sugarme/tokenizer/model/bpe"
-	"github.com/sugarme/tokenizer/util"
+	"github.com/superyongss/tokenizer"
+	bpe "github.com/superyongss/tokenizer/model/bpe"
+	"github.com/superyongss/tokenizer/util"
 )
 
 func TestBPE_FromFiles(t *testing.T) {

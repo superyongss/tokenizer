@@ -7,19 +7,18 @@ import (
 	"errors"
 	"fmt"
 	"io/ioutil"
+	"log"
 	"os"
 	"path/filepath"
 	"regexp"
 	"sort"
-
-	"log"
 	"strings"
 
 	"github.com/gobuffalo/packr"
 
-	"github.com/sugarme/tokenizer"
-	"github.com/sugarme/tokenizer/model"
-	"github.com/sugarme/tokenizer/util"
+	"github.com/superyongss/tokenizer"
+	"github.com/superyongss/tokenizer/model"
+	"github.com/superyongss/tokenizer/util"
 )
 
 type Merges map[Pair]PairVal
